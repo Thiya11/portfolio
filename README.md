@@ -1,1 +1,12 @@
 # Thiyagu Arunachalam's Portfolio
+
+## version 1.0.0
+- Added Hero section
+- Added About me section
+- Added Skills section
+
+### Features
+- All the skills and about me features are controlled by config file change the config file to change data in website.
+- CSS animation added for smooth transition
+- Interactive features to move between functions
+- default dark mode feature

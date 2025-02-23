@@ -109,7 +109,7 @@ export const SKILLS_DATA = [
     {
         id:10,
         title:'Git',
-        icon:'assets/images/skills/git-brands-solid.svg',
+        icon:'assets/images/skills/git-brands.svg',
         level:4
     },
     {
@@ -127,7 +127,58 @@ export const SKILLS_DATA = [
     {
         id:11,
         title:'Cypress',
-        icon:'assets/images/skills/cypress-brands-solid.svg',
+        icon:'assets/images/skills/cypress-brands.svg',
         level:3
     }
-]
+];
+
+export const EXPERIENCE_DATA =  [
+        {
+            "id": 422954,
+            "description": "Developed efficient, reusable web components and intuitive UIs using Angular, Bootstrap, and React, enhancing performance, security, and cross-platform compatibility.",
+            "endDate": "",
+            "currentJob": true,
+            "role": "Software Developer",
+            "location": "Goa, India",
+            "url":"https://cdmx.in/",
+            "company": "CodeMax IT Solutions",
+            "startDate": "April 2024",
+            "sortOrderId": 0
+        },
+        {
+            "id": 422955,
+            "description": "Built scalable Angular apps with 20% performance boost, upgraded to latest versions, enabled white labeling, added I18N support, and crafted responsive UIs.",
+            "endDate": "March 2024",
+            "currentJob": false,
+            "role": "Angular Developer",
+            "location": "Goa, India",
+            "url":"https://cdmx.in/",
+            "company": "CodeMax IT Solutions",
+            "startDate": "April 2023",
+            "sortOrderId": 1
+        },
+        {
+            "id": 422956,
+            "description": "Developed 40+ reusable Angular components, 20+ Node.js APIs with PostgreSQL, implemented 2FA, boosted responsiveness by 40% using RXJS, and ensured quality with Cypress testing.",
+            "currentJob": false,
+            "endDate":"March 2023",
+            "role": "Full-stack Web Developer",
+            "location": "Coimbatore, India",
+            "company": "Centiyent",
+            "url":"https://www.centiyent.com/",
+            "startDate": "June 2022",
+            "sortOrderId": 2
+        },
+        {
+            "id": 422957,
+            "description": "",
+            "currentJob": false,
+            "endDate":"July 2021",
+            "role": "Master of Science(Physics)",
+            "location": "Dindigul",
+            "company": "Gandhigram University",
+            "url":"https://www.ruraluniv.ac.in/",
+            "startDate": "June 2019",
+            "sortOrderId": 3
+        }
+    ]

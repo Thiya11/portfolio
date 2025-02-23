@@ -17,6 +17,9 @@
     /* Error Color */
     --error-color: #CF6679;
 
+    /* link colors */
+    --link-color: rgb(96 165 250 );
+
     /* Font size */
     --primary-text-font-size: 76px;
     ---text-secondaryfont-size: 18px;

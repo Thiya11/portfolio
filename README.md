@@ -10,3 +10,11 @@
 - CSS animation added for smooth transition
 - Interactive features to move between functions
 - default dark mode feature
+
+## version 1.1.0
+- Added Experience section
+- Added Hobbies section
+- Added Education
+
+### Changes
+- Skills section UI changes

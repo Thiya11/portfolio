@@ -1,4 +1,6 @@
-import orgLink from '../../assets/images/icons/box-arrow-up-right.svg'
+import orgLink from '../../assets/images/icons/box-arrow-up-right.svg';
+import work from '../../assets/images/icons/briefcase-fill.svg';
+import education from '../../assets/images/icons/book-fill.svg';
 
 function ExpCard({data}) {
   return (
@@ -12,7 +14,7 @@ function ExpCard({data}) {
                     {data.company + ' - ' + data.location}
                     <img src={orgLink} className='org-link-logo'></img>
                 </a>
-                <p className='text-end sub-text-exp'>{data.currentJob ? data.startDate + ' - Present' : data.startDate + ' - ' + data.endDate}</p>
+                <p className='text-start sub-text-exp'>{data.currentJob ? data.startDate + ' - Present' : data.startDate + ' - ' + data.endDate}</p>
             </div>
             <div className="exp-description">
                 <p>{data.description}</p>
@@ -20,6 +22,7 @@ function ExpCard({data}) {
         </div>
         <div className="col-3">
             <div className={data.sortOrderId % 2 == 1 ? "center-line right" : "center-line left"}>
+                <img src={data.id === 422957 ? education : work}></img>
             </div>
         </div>
         <div className="col-4">

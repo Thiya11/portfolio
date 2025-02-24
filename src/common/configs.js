@@ -68,67 +68,71 @@ export const SKILLS_DATA = [
         id:1,
         title: 'Angular',
         icon:'assets/images/skills/angular-brands-solid.svg',
-        level: 4.5
+        level: 4.5,
+        category:'front-end'
     },
     {
         id:2,
-        title:'HTML5',
+        title:'HTML5/CSS3',
         icon:'assets/images/skills/html5-brands-solid.svg',
-        level:4.5
-    },
-    {
-        id:3,
-        title:'CSS3',
-        icon:'assets/images/skills/css3-brands-solid.svg',
-        level:4.5
+        level:4.5,
+        category:'front-end'
     },
     {
         id:4,
         title:'JavaScript',
         icon:'assets/images/skills/js-brands-solid.svg',
-        level:4.5
+        level:4.5,
+        category:'programming'
     },
     {
         id:6,
         title:'Node.js',
         icon:'assets/images/skills/node-js-brands-solid.svg',
-        level:4
+        level:4,
+        category:'back-end'
     },
     {
         id:8,
         title:'PostgreSQL',
         icon:'assets/images/skills/table-solid.svg',
-        level:3.5
+        level:3.5,
+        category:'database'
     },
     {
         id:9,
         title:'MySQL',
         icon:'assets/images/skills/database-solid.svg',
-        level:4
+        level:4,
+        category:'database'
     },
     {
         id:10,
         title:'Git',
         icon:'assets/images/skills/git-brands.svg',
-        level:4
+        level:4,
+        category:'tools'
     },
     {
         id:5,
         title:'React',
         icon:'assets/images/skills/react-brands-solid.svg',
-        level:3
+        level:3,
+        category:'front-end'
     },
     {
         id:7,
         title:'Python',
         icon:'assets/images/skills/python-brands-solid.svg',
-        level:3
+        level:3,
+        category:'programming'
     },
     {
         id:11,
         title:'Cypress',
         icon:'assets/images/skills/cypress-brands.svg',
-        level:3
+        level:3,
+        category:'testing'
     }
 ];
 
@@ -181,4 +185,31 @@ export const EXPERIENCE_DATA =  [
             "startDate": "June 2019",
             "sortOrderId": 3
         }
-    ]
+    ];
+
+export const BOOK_LIST = [
+    {
+        id:1,
+        img:'assets/images/frankenstein.jpg',
+        title:'Frankenstein',
+        author:'Mary Shelly',
+        isCompleted:true,
+        progress:100
+    },
+    {
+        id:2,
+        img:'assets/images/1984.webp',
+        title:'1984',
+        author:'George Orwell',
+        isCompleted:true,
+        progress:100
+    },
+    {
+        id:3,
+        img:'assets/images/a-man-called-ove.jpg',
+        title:'A Man Called Ove',
+        author:'Fredrik Backman',
+        isCompleted:false,
+        progress:10
+    }
+]

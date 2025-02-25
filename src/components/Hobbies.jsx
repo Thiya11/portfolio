@@ -1,10 +1,13 @@
 import { BOOK_LIST } from "../common/configs"
+import HobbyCard from "./utils/HobbyCard";
+import useScrollFade from "./utils/useScrollFade";
 
 function Hobbies() {
     const books = BOOK_LIST;
+    const [ref, isVisible] = useScrollFade();
   return (
     <section className="hobbies-section">
-        <div className="section-header">
+        <div ref={ref} className={`section-header fade-in-section ${isVisible ? 'is-visible' : ''}`}>
             <h2 className="primary-text">{"Other than Coding"}</h2>
             <h6 className="secondary-text text-center">
                 Like to read lot of books, some of them from my recent collection.
@@ -14,20 +17,7 @@ function Hobbies() {
             <div className="books-shelf col-12">
                 {
                     books.map(book => (
-                        <div key={book.id} className="book">
-                           <div className="book-img-wrapper" style={{backgroundImage: `url(${book.img})`}}>
-                                <div className="bookmark" style={{backgroundColor: book.isCompleted ? 'green' : 'purple'}}>
-                                        {book.isCompleted ? 'Completed' : 'In Progress'}
-                                </div>
-                                <div className={book.isCompleted ? 'progress hide' : 'progress show'}>
-                                    <div className="range" style={{width: ((book.progress / 100) * 240) + 'px'}}></div>
-                                </div>
-                            </div>
-                           <div className="book-desc">
-                                <h4 className="book-title">{book.title}</h4>
-                                <h6 className="book-auth">{book.author}</h6>
-                           </div>
-                        </div>
+                        <HobbyCard key={book.id} book={book} type='hobbyBook'></HobbyCard>
                     ))
                 }
             </div>

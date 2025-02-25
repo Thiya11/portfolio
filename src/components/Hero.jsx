@@ -1,4 +1,5 @@
 import Hero_cards from "./Hero_cards"
+import useScrollFade from "./utils/useScrollFade";
 
 function Hero() {
   const handleScrollClick = () => {
@@ -6,12 +7,14 @@ function Hero() {
         top: window.innerHeight,
         behavior:'smooth'
     })
-  }
+  };
+
+  const [ref, isVisible] = useScrollFade()
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="Home" >
         <div className="container">
             <div className="grid-2-columns">
-                <div className="hero-header-section">
+                <div ref={ref} className={`hero-header-section fade-in-section ${isVisible ? 'is-visible' : ''}`}>
                     <h1 className="primary-header">I&rsquo;m Thiyagu, a Software Developer</h1>
                     <p className="secondary-header mb-0">
                         AI-Enhanced Software Developer with 3+ years of experience, 

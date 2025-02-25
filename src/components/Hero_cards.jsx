@@ -1,10 +1,12 @@
 import { HERO_CARDS_DATA } from "../common/configs";
 import Social_icons from "./Social_icons";
+import useScrollFade from "./utils/useScrollFade";
 
 function Hero_cards() {
     const heroHeaderData = HERO_CARDS_DATA;
+    const [ref, isVisible] = useScrollFade();
        return (
-        <div className="hero-cards">
+        <div ref={ref} className={`hero-cards fade-in-section ${isVisible ? 'is-visible' : ''}`}>
         {heroHeaderData.map((item) => (
             <div className="hero-card" key={item.id}>
                 <div className="hero-card-title">

@@ -1,5 +1,6 @@
 import { SKILLS_DATA } from "../common/configs";
 import Card from "./utils/Card";
+import useScrollFade from "./utils/useScrollFade";
 
 function Skills() {
  const skillsData = SKILLS_DATA;
@@ -10,13 +11,14 @@ function Skills() {
  const programmingSkills = skillsData.filter((item) => item.category === 'programming');
  const testingSkills = skillsData.filter((item) => item.category === 'testing');
  const otherSkills = skillsData.filter((item) => item.category === 'tools');
+ const [ref, isVisible] = useScrollFade();
 
   return (
     <section className="container skills-section" id="skills">
-        <div className="section-header">
+        <div ref={ref} className={`section-header fade-in-section ${isVisible ? 'is-visible' : ''}`}>
             <h2 className="primary-text">SKILLS</h2>
         </div>
-        <div className="section-content">
+        <div  ref={ref} className={`section-content fade-in-section ${isVisible ? 'is-visible' : ''}`}>
             <div className="skills-content">
                 <p className="secondary-text text-center">My Extensive List of Skills</p>
                 <div className="skills-container">

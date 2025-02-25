@@ -212,4 +212,52 @@ export const BOOK_LIST = [
         isCompleted:false,
         progress:10
     }
+];
+
+export const PROJECTS_DATA = [
+    {
+        id:1,
+        img:'assets/images/stem-app.png',
+        url:'https://kitsunechaos.com/biller-app/login',
+        title:'STEM Project',
+        tools:['Angular', 'Bootstrap', 'E-charts']
+    },
+    {
+        id:2,
+        img:'assets/images/biller-app.png',
+        url:'https://kitsunechaos.com/tools',
+        title:'Biller App',
+        tools:['Angular', 'Bootstrap', 'Node.js', 'Express.js', 'SQL', 'E-charts']
+    },
+    {
+        id:3,
+        img:'assets/images/portfolio.png',
+        url:'https://thiyagu-arunachalam.vercel.app/',
+        title:'Portfolio Project',
+        tools:['React', 'Bootstrap']
+    }
+];
+
+export const CONTACT_DATA = [
+    {
+        id:1,
+        logo:'assets/images/icons/envelope-at-fill.svg',
+        title:'Email',
+        url:'mailto:athiyagu6@gmail.com',
+        text:'athiyagu6@gmail.com'
+    },
+    {
+        id:2,
+        logo:'assets/images/icons/telephone-fill.svg',
+        title:'Mobile',
+        text:'+91 9629695763',
+        url:'tel:+919629695763'
+    },
+    {
+        id:3,
+        logo:'assets/images/icons/geo-alt-fill.svg',
+        title:'Address',
+        url:'',
+        text:'Theni, Tamil Nadu, India',
+    },
 ]

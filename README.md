@@ -18,3 +18,12 @@
 
 ### Changes
 - Skills section UI changes
+
+## version 1.2.0
+- Added Contact Section
+- Added Projects section and linked to appropriate projects
+- Added sticky menu on top.
+- Added fade in animation when scrolling
+
+### Changes
+- css changes for about me features

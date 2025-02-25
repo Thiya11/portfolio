@@ -1,11 +1,13 @@
 import orgLink from '../../assets/images/icons/box-arrow-up-right.svg';
 import work from '../../assets/images/icons/briefcase-fill.svg';
 import education from '../../assets/images/icons/book-fill.svg';
+import useScrollFade from './useScrollFade';
 
 function ExpCard({data}) {
+    const [ref, isVisible] = useScrollFade();
   return (
     <div className={data.sortOrderId % 2 == 1 ? "exp-card-section d-flex flex-row-reverse container" : "exp-card-section d-flex flex-row container"}>
-        <div className="col-5 exp-card pr-2">
+        <div ref={ref} className={`col-5 exp-card pr-2 fade-in-section ${isVisible ? 'is-visible' : ''}`}>
             <div className="exp-title">
                 <h4>{data.role}</h4>
             </div>

@@ -1,12 +1,14 @@
 import { FEATURES_DATA } from "../common/configs"
+import useScrollFade from "./utils/useScrollFade";
 
 function Features() {
     const features = FEATURES_DATA;
+    const [ref, isVisible] = useScrollFade();
   return (
     <div className="grid-2-columns about-me-features">
         <div className="about-me-features-left">
             {features.slice(0,2).map((item) => 
-              <div className="about-me-feature" id={'feature_' + item.id} key={item.id}>
+              <div ref={ref} className = {`about-me-feature fade-in-section ${isVisible ? 'is-visible' : ''}`} id={'feature_' + item.id} key={item.id}>
                  <div className="feature-icon">
                     <img src={item.icon}/>
                  </div>
@@ -22,7 +24,7 @@ function Features() {
         </div>
         <div className="about-me-features-right">
         {features.slice(2).map((item) => 
-              <div className="about-me-feature" key={item.id} id={'feature_' + item.id}>
+              <div ref={ref} className = {`about-me-feature fade-in-section ${isVisible ? 'is-visible' : ''}`}  key={item.id} id={'feature_' + item.id}>
                  <div className="feature-icon">
                     <img src={item.icon}/>
                  </div>

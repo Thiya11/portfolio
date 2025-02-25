@@ -2,6 +2,7 @@
     /* Background Colors */
     --bg-color: #1b1f24;
     --card-bg-color: #1E1E1E;
+    --secondary-bg-color:#191c35;
 
     /* Text Colors */
     --white: #FFFFFF;
@@ -21,7 +22,7 @@
     --link-color: rgb(96 165 250 );
 
     /* Font size */
-    --primary-text-font-size: 76px;
+    --primary-text-font-size: 64px;
     ---text-secondaryfont-size: 18px;
 
     /* Feature icons color */

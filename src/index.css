@@ -658,7 +658,7 @@ a {
 }
 
 .nav-link {
-  color: var(--white);
+  color: var(--white) !important;
 }
 
 .nav-link:hover{

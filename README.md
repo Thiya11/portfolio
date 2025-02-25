@@ -27,3 +27,6 @@
 
 ### Changes
 - css changes for about me features
+
+## version 1.2.1
+- Added resume as pdf to view or download my updated resume

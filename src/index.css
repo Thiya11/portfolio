@@ -7,6 +7,17 @@
   font-weight: normal;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 html, body {
   font-family: 'Poppins', 'sans-serif' !important;
   background-color: var(--bg-color);

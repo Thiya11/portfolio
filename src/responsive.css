@@ -45,11 +45,15 @@
     .contact {
         gap: 5% !important;
     }
+
+    .secondary-text {
+        padding: 0.5rem !important;
+    }
 }
 
 /* Medium size screens */
 
-@media (min-width:481px) and (max-width:768px) {
+@media (min-width:481px) and (max-width:767px) {
     .books-shelf, .projects-container {
         display: flex;
         flex-direction: column;
@@ -94,19 +98,19 @@
     .contact {
         gap: 5% !important;
     }
+
+    .secondary-text {
+        padding: 0.5rem !important;
+    }
 }
 
 /* large screens */
 
-@media (min-width:769px) and (max-width:1024px) {
+@media (min-width:768px) and (max-width:1024px) {
     .books-shelf, .projects-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    .center-line.right {
-        padding-right: 37.95px !important;
     }
 
     .projects-container .book {
@@ -126,17 +130,15 @@
         height: 420px !important;
     }
 
-    .skills-container {
-        display: grid;
-        grid-template-rows: auto;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 40px;
-        column-gap: 40px;
-        padding:30px;
-    }
-
     .skill-container-section {
         padding: 24px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+
+    .skill-container-section .container-section {
+        justify-content: center !important;
     }
 
     .skill-card {
@@ -159,7 +161,7 @@
 
 /* standard screen sizes */
 
-@media (min-width:1025px) and (max-width:1280px){
+@media (min-width:1025px) and (max-width:1279px){
     .books-shelf, .projects-container{
         margin-top: 60px;
         display: flex;
@@ -193,7 +195,7 @@
 
 /* Extra large screen */
 
-@media (min-width:1281px) {
+@media (min-width:1280px) {
     .books-shelf, .projects-container{
         margin-top: 60px;
         display: flex;
@@ -222,5 +224,24 @@
 
     .contact-content{
         margin: 2rem !important;
+    }
+}
+
+/* only small changes */
+
+@media (min-width:768px) and (max-width:992px) {
+    .center-line.right {
+        padding-right: 1.75rem !important;
+        height: 310px !important;
+    }
+
+    .center-line.left {
+        height: 330px !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+    .center-line.right {
+        padding-right: 2.4rem !important;
     }
 }

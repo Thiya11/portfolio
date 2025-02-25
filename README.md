@@ -33,3 +33,6 @@
 
 ## version 1.3.0
 - Added responsive design to the website.
+
+## version 1.3.1
+- Minor changes in responsive design.

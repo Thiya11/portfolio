@@ -1,4 +1,5 @@
 @import url('assets/styles/global.css');
+@import url('./responsive.css');
 
 @font-face {
   font-family: "Poppins";
@@ -55,15 +56,6 @@ a {
   width: 1260px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.grid-2-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto;
-  column-gap: 28px;
-  grid-auto-columns: 1fr;
-  align-items: center;
 }
 
 .hero-header-section {
@@ -324,15 +316,6 @@ a {
   padding: 60px 0;
 }
 
-.skills-container {
-  display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
-  row-gap: 40px;
-  column-gap: 40px;
-  padding:30px;
-}
-
 .skill-container-section {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   padding: 48px;
@@ -477,14 +460,6 @@ a {
   padding: 60px 0 60px 0;
 }
 
-.books-shelf, .projects-container{
-  margin-top: 60px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 5%;
-}
-
 .projects-container {
   justify-content: center;
 }
@@ -493,8 +468,6 @@ a {
   width: 420px;
   height: 240px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 0 20px;
   position: relative;
   z-index: 2;

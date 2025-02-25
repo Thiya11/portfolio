@@ -1,0 +1,226 @@
+/* Smaller Screens */
+
+@media (max-width:480px) {
+    .books-shelf, .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-img-wrapper {
+        width: 320px !important;
+        height: 240px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .exp-card-section {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .center-line.right {
+        padding: 0 !important;
+        justify-self: center !important;
+    }
+
+    .skills-container {
+        padding: 16px;
+    }
+
+    .skill-container-section {
+        margin-bottom: 1rem;
+    }
+
+    .about-me-feature {
+        padding: 1rem;
+    }
+
+    .contact-content{
+        margin: 15px;
+        padding: 20px !important;
+    }
+
+    .contact {
+        gap: 5% !important;
+    }
+}
+
+/* Medium size screens */
+
+@media (min-width:481px) and (max-width:768px) {
+    .books-shelf, .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-img-wrapper {
+        width: 320px !important;
+        height: 240px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .exp-card-section {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .center-line.right {
+        padding: 0 !important;
+        justify-self: center !important;
+    }
+
+    .skills-container {
+        padding: 16px;
+    }
+
+    .skill-container-section {
+        margin-bottom: 1rem;
+    }
+
+    .about-me-feature {
+        padding: 1rem;
+    }
+
+    .contact-content{
+        margin: 15px;
+        padding: 20px !important;
+    }
+
+    .contact {
+        gap: 5% !important;
+    }
+}
+
+/* large screens */
+
+@media (min-width:769px) and (max-width:1024px) {
+    .books-shelf, .projects-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .center-line.right {
+        padding-right: 37.95px !important;
+    }
+
+    .projects-container .book {
+        margin-bottom: 2rem !important;
+    }
+
+    .projects-container .book-img-wrapper {
+        width: 620px !important;
+        height: 360px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .books-shelf .book-img-wrapper {
+        width: 620px !important;
+        height: 420px !important;
+    }
+
+    .skills-container {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+        column-gap: 40px;
+        padding:30px;
+    }
+
+    .skill-container-section {
+        padding: 24px !important;
+    }
+
+    .skill-card {
+        border: 2px solid var(--white) !important;
+    }
+
+    .grid-2-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 28px;
+        grid-auto-columns: 1fr;
+        align-items: center;
+    }
+
+    .contact-content{
+        margin: 2rem !important;
+    }
+}
+
+/* standard screen sizes */
+
+@media (min-width:1025px) and (max-width:1280px){
+    .books-shelf, .projects-container{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 5%;
+    }
+
+    .skills-container {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+        column-gap: 40px;
+        padding:30px;
+    }
+
+    .grid-2-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 28px;
+        grid-auto-columns: 1fr;
+        align-items: center;
+    }
+    
+    .contact-content{
+        margin: 2rem !important;
+    }
+}
+
+/* Extra large screen */
+
+@media (min-width:1281px) {
+    .books-shelf, .projects-container{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 5%;
+    }
+
+    .skills-container {
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 40px;
+        column-gap: 40px;
+        padding:30px;
+    }
+
+    .grid-2-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 28px;
+        grid-auto-columns: 1fr;
+        align-items: center;
+    }
+
+    .contact-content{
+        margin: 2rem !important;
+    }
+}

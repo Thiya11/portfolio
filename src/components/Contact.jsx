@@ -12,7 +12,7 @@ function Contact() {
                Choose your preferred method to connect with me
             </h6>
         </div>
-        <div className="contact-content container">
+        <div className="contact-content">
             {
               contactData.map((contact) => (
                 <div key={contact.id} ref={ref} className={`contact fade-in-section ${isVisible ? 'is-visible' : ''}`}>

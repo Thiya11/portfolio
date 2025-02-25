@@ -30,3 +30,6 @@
 
 ## version 1.2.1
 - Added resume as pdf to view or download my updated resume
+
+## version 1.3.0
+- Added responsive design to the website.

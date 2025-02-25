@@ -7,7 +7,7 @@ function ExpCard({data}) {
     const [ref, isVisible] = useScrollFade();
   return (
     <div className={data.sortOrderId % 2 == 1 ? "exp-card-section d-flex flex-row-reverse container" : "exp-card-section d-flex flex-row container"}>
-        <div ref={ref} className={`col-5 exp-card pr-2 fade-in-section ${isVisible ? 'is-visible' : ''}`}>
+        <div ref={ref} className={`col-md-5 col-lg-5 col-xl-5 col-12 exp-card pr-2 fade-in-section ${isVisible ? 'is-visible' : ''}`}>
             <div className="exp-title">
                 <h4>{data.role}</h4>
             </div>
@@ -22,12 +22,12 @@ function ExpCard({data}) {
                 <p>{data.description}</p>
             </div>
         </div>
-        <div className="col-3">
+        <div className="col-md-3 col-lg-3 col-xl-3 col-12">
             <div className={data.sortOrderId % 2 == 1 ? "center-line right" : "center-line left"}>
                 <img src={data.id === 422957 ? education : work}></img>
             </div>
         </div>
-        <div className="col-4">
+        <div className="col-md-4 col-lg-4 col-xl-4 col-12">
 
         </div>
     </div>

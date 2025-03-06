@@ -218,14 +218,14 @@ export const PROJECTS_DATA = [
     {
         id:1,
         img:'assets/images/stem-app.png',
-        url:'https://kitsunechaos.com/biller-app/login',
+        url:'https://kitsunechaos.com/tools',
         title:'STEM Project',
         tools:['Angular', 'Bootstrap', 'E-charts']
     },
     {
         id:2,
         img:'assets/images/biller-app.png',
-        url:'https://kitsunechaos.com/tools',
+        url:'https://kitsunechaos.com/biller-app/login',
         title:'Biller App',
         tools:['Angular', 'Bootstrap', 'Node.js', 'Express.js', 'SQL', 'E-charts']
     },

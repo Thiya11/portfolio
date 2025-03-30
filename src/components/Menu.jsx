@@ -11,7 +11,7 @@ window.addEventListener('scroll', () => {
 
 function Menu() {
  const openPdf = () => {
-    window.open('/thiyagu_arunachalam-fs-18-02-2025.pdf', '_blank')
+    window.open('/thiyagu_resume_new.pdf', '_blank')
  }
   return (
     <Navbar expand="lg" className="bg-body-tertiary" id="main_navbar">

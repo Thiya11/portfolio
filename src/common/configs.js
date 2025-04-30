@@ -162,18 +162,6 @@ export const EXPERIENCE_DATA =  [
             "sortOrderId": 1
         },
         {
-            "id": 422956,
-            "description": "Developed 40+ reusable Angular components, 20+ Node.js APIs with PostgreSQL, implemented 2FA, boosted responsiveness by 40% using RXJS, and ensured quality with Cypress testing.",
-            "currentJob": false,
-            "endDate":"March 2023",
-            "role": "Full-stack Web Developer",
-            "location": "Coimbatore, India",
-            "company": "Centiyent",
-            "url":"https://www.centiyent.com/",
-            "startDate": "June 2022",
-            "sortOrderId": 2
-        },
-        {
             "id": 422957,
             "description": "",
             "currentJob": false,

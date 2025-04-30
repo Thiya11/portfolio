@@ -171,7 +171,7 @@ export const EXPERIENCE_DATA =  [
             "company": "Gandhigram University",
             "url":"https://www.ruraluniv.ac.in/",
             "startDate": "June 2019",
-            "sortOrderId": 3
+            "sortOrderId": 2
         }
     ];
 

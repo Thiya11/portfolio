@@ -137,17 +137,29 @@ export const SKILLS_DATA = [
 ];
 
 export const EXPERIENCE_DATA =  [
+    {
+            "id": 422953,
+            "description":"",
+            "endDate": "",
+            "currentJob": true,
+            "role": "Software Developer",
+            "location": "Shibuya, Japan",
+            "url":"https://jptomato.com",
+            "company": "株式会社　Tomato",
+            "startDate": "November 2025",
+            "sortOrderId": 0
+        },
         {
             "id": 422954,
             "description": "Developed efficient, reusable web components and intuitive UIs using Angular, Bootstrap, and React, enhancing performance, security, and cross-platform compatibility.",
-            "endDate": "",
-            "currentJob": true,
+            "endDate": "Septermber 2025",
+            "currentJob": false,
             "role": "Software Developer",
             "location": "Goa, India",
             "url":"https://cdmx.in/",
             "company": "CodeMax IT Solutions",
             "startDate": "April 2024",
-            "sortOrderId": 0
+            "sortOrderId": 1
         },
         {
             "id": 422955,
@@ -159,7 +171,7 @@ export const EXPERIENCE_DATA =  [
             "url":"https://cdmx.in/",
             "company": "CodeMax IT Solutions",
             "startDate": "April 2023",
-            "sortOrderId": 1
+            "sortOrderId": 2
         },
         {
             "id": 422957,
@@ -171,7 +183,7 @@ export const EXPERIENCE_DATA =  [
             "company": "Gandhigram University",
             "url":"https://www.ruraluniv.ac.in/",
             "startDate": "June 2019",
-            "sortOrderId": 2
+            "sortOrderId": 3
         }
     ];
 

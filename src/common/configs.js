@@ -124,7 +124,7 @@ export const SKILLS_DATA = [
         id:7,
         title:'Python',
         icon:'assets/images/skills/python-brands-solid.svg',
-        level:3,
+        level:4,
         category:'programming'
     },
     {
@@ -133,13 +133,34 @@ export const SKILLS_DATA = [
         icon:'assets/images/skills/cypress-brands.svg',
         level:3,
         category:'testing'
-    }
+    },
+    {
+        id:12,
+        title:'Java',
+        icon:'assets/images/skills/java.svg',
+        level:3,
+        category:'programming'
+    },
+    {
+        id:13,
+        title:'Spring',
+        icon:'assets/images/skills/spring-boot.svg',
+        level:3,
+        category:'back-end'
+    },        
+    {
+        id:14,
+        title:'MCP',
+        icon:'assets/images/skills/mcp.svg',
+        level:3,
+        category:'tools'
+    },
 ];
 
 export const EXPERIENCE_DATA =  [
     {
             "id": 422953,
-            "description":"",
+            "description":"I’ve learned Japanese business etiquette and work with front-end frameworks like Angular and React to build practical web applications across various domains.",
             "endDate": "",
             "currentJob": true,
             "role": "Software Developer",
@@ -175,7 +196,7 @@ export const EXPERIENCE_DATA =  [
         },
         {
             "id": 422957,
-            "description": "",
+            "description": "My master’s degree in Physics strengthened my logical reasoning and problem-solving skills, which transferred naturally into software development and engineering thinking.",
             "currentJob": false,
             "endDate":"July 2021",
             "role": "Master of Science(Physics)",
@@ -229,13 +250,13 @@ export const PROJECTS_DATA = [
         title:'Biller App',
         tools:['Angular', 'Bootstrap', 'Node.js', 'Express.js', 'SQL', 'E-charts']
     },
-    {
-        id:3,
-        img:'assets/images/portfolio.png',
-        url:'https://thiyagu-arunachalam.vercel.app/',
-        title:'Portfolio Project',
-        tools:['React', 'Bootstrap']
-    }
+    // {
+    //     id:3,
+    //     img:'assets/images/portfolio.png',
+    //     url:'https://thiyagu-arunachalam.vercel.app/',
+    //     title:'Portfolio Project',
+    //     tools:['React', 'Bootstrap']
+    // }
 ];
 
 export const CONTACT_DATA = [
@@ -248,16 +269,9 @@ export const CONTACT_DATA = [
     },
     {
         id:2,
-        logo:'assets/images/icons/telephone-fill.svg',
-        title:'Mobile',
-        text:'+91 9629695763',
-        url:'tel:+919629695763'
-    },
-    {
-        id:3,
         logo:'assets/images/icons/geo-alt-fill.svg',
         title:'Address',
         url:'',
-        text:'Theni, Tamil Nadu, India',
+        text:'Kanagawa Prefecture, Kawasaki, Japan',
     },
 ]

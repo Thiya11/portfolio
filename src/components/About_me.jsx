@@ -11,7 +11,7 @@ return (
         <div className="section-content">
             <div ref={ref} className={`about-me-content fade-in-section ${isVisible ? 'is-visible' : ''}`}>
                 <p className="secondary-text text-center">
-                    I am a Software Developer with 2+ years of experience in developing web applications.
+                    I am a Software Developer with 3+ years of experience in developing web applications.
                     Experienced in both front-end and back-end development.
                 </p>
             </div>

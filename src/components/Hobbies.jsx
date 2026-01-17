@@ -6,7 +6,7 @@ function Hobbies() {
     const books = BOOK_LIST;
     const [ref, isVisible] = useScrollFade();
   return (
-    <section className="hobbies-section">
+    <section className="hobbies-section" data-ignore-spy>
         <div ref={ref} className={`section-header fade-in-section ${isVisible ? 'is-visible' : ''}`}>
             <h2 className="primary-text">{"Other than Coding"}</h2>
             <h6 className="secondary-text text-center">

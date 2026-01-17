@@ -6,7 +6,7 @@ function Projects() {
   const projectsData = PROJECTS_DATA;
   const [ref, isVisible] = useScrollFade(); 
   return (
-    <div className="projects-section" id="projects">
+    <section className="projects-section" id="projects">
         <div ref={ref} className={`section-header fade-in-section ${isVisible ? 'is-visible' : ''}`}>
             <h2 className="primary-text">Curated Projects</h2>
             <h6 className="secondary-text text-center">
@@ -20,7 +20,7 @@ function Projects() {
                 ))
             }
         </div>
-    </div>
+    </section>
   )
 }
 

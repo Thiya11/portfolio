@@ -5,7 +5,7 @@ function Contact() {
     const contactData = CONTACT_DATA;
     const [ref, isVisible] = useScrollFade();
   return (
-    <div className="contact-section" id="contact">
+    <section className="contact-section" id="contact">
         <div ref={ref} className={`section-header fade-in-section ${isVisible ? 'is-visible' : ''}`}>
             <h2 className="primary-text">{"Let's Connect"}</h2>
             <h6 className="secondary-text text-center">
@@ -31,7 +31,7 @@ function Contact() {
               ))   
             }
         </div>
-    </div>
+    </section>
   )
 }
 

@@ -36,3 +36,10 @@
 
 ## version 1.3.1
 - Minor changes in responsive design.
+
+## version 1.4.0
+- Added CSS fixes for the active class changes while scrolling.
+- Added description for the Tomato company and the Degree.
+- Self linking for the same project is redundant so removed.
+- Added Java, Spring boot and MCP to the skills section.
+- Changed the expereince to around 3+ years.

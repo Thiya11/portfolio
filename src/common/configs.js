@@ -1,16 +1,16 @@
 export const HERO_CARDS_DATA = [
     {
         id: 1,
-        title: 'ABOUT ME',
-        subText: 'Skilled in building scalable web applications with a focus on performance and user experience. Experienced in both front-end and back-end development, delivering end-to-end solutions.',
-        buttonText: 'Learn More',
+        title: 'hero.about.title',
+        subText: 'hero.about.subText',
+        buttonText: 'hero.about.button',
         href: '#about-me'
     },
     {
         id: 2,
-        title: 'MY WORK',
-        subText: ' Worked on fintech and security-based projects, ensuring high performance and security standards. Developed a STEM tool as a personal project.',
-        buttonText: 'Explore Projects',
+        title: 'hero.work.title',
+        subText: 'hero.work.subText',
+        buttonText: 'hero.work.button',
         href: '#projects'
     },
 ];
@@ -39,27 +39,27 @@ export const SOCIAL_ICONS = [
 export const FEATURES_DATA = [
     {
         id: 1,
-        title: 'Front-End',
-        subText: 'Experienced in building responsive web applications using Angular, React, HTML, CSS, and JavaScript.',
+        title: 'features.frontend.title',
+        subText: 'features.frontend.subText',
         icon: 'assets/images/icons/window.svg'
     },
     {
         id: 2,
-        title: 'Back-End',
-        subText: 'Developed RESTful APIs using Node.js and Express along with PostgreSQL and MySQL.',
+        title: 'features.backend.title',
+        subText: 'features.backend.subText',
         icon:'assets/images/icons/database.svg'
     },
     {
         id: 3,
-        title: 'Other Skills',
-        subText: 'Experienced in using tools like Git, Cypress, ESLint, and Postman.',
-        icon:'assets/images/icons/code.svg'
+        title: 'features.ai.title',
+        subText: 'features.ai.subText',
+        icon:'assets/images/icons/ai.svg'
     },
     {
         id: 4,
-        title: 'AI and ML',
-        subText: 'Learning to use libraries like TensorFlow, Keras, and Scikit-Learn.',
-        icon:'assets/images/icons/ai.svg'
+        title: 'features.other.title',
+        subText: 'features.other.subText',
+        icon:'assets/images/icons/code.svg'
     }
 ];
 
@@ -159,48 +159,48 @@ export const SKILLS_DATA = [
 
 export const EXPERIENCE_DATA =  [
     {
-            "id": 422953,
-            "description":"I’ve learned Japanese business etiquette and work with front-end frameworks like Angular and React to build practical web applications across various domains.",
+            "id": 0,
+            "description":"experience.0.description",
             "endDate": "",
             "currentJob": true,
-            "role": "Software Developer",
-            "location": "Shibuya, Japan",
+            "role": "experience.0.role",
+            "location": "experience.0.location",
             "url":"https://jptomato.com",
             "company": "株式会社　Tomato",
             "startDate": "November 2025",
             "sortOrderId": 0
         },
         {
-            "id": 422954,
-            "description": "Developed efficient, reusable web components and intuitive UIs using Angular, Bootstrap, and React, enhancing performance, security, and cross-platform compatibility.",
+            "id": 1,
+            "description": "experience.1.description",
             "endDate": "Septermber 2025",
             "currentJob": false,
-            "role": "Software Developer",
-            "location": "Goa, India",
+            "role": "experience.1.role",
+            "location": "experience.1.location",
             "url":"https://cdmx.in/",
             "company": "CodeMax IT Solutions",
             "startDate": "April 2024",
             "sortOrderId": 1
         },
         {
-            "id": 422955,
-            "description": "Built scalable Angular apps with 20% performance boost, upgraded to latest versions, enabled white labeling, added I18N support, and crafted responsive UIs.",
+            "id": 2,
+            "description": "experience.2.description",
             "endDate": "March 2024",
             "currentJob": false,
-            "role": "Angular Developer",
-            "location": "Goa, India",
+            "role": "experience.2.role",
+            "location": "experience.2.location",
             "url":"https://cdmx.in/",
             "company": "CodeMax IT Solutions",
             "startDate": "April 2023",
             "sortOrderId": 2
         },
         {
-            "id": 422957,
-            "description": "My master’s degree in Physics strengthened my logical reasoning and problem-solving skills, which transferred naturally into software development and engineering thinking.",
+            "id": 3,
+            "description": "experience.3.description",
             "currentJob": false,
             "endDate":"July 2021",
-            "role": "Master of Science(Physics)",
-            "location": "Dindigul",
+            "role": "experience.3.role",
+            "location": "experience.3.location",
             "company": "Gandhigram University",
             "url":"https://www.ruraluniv.ac.in/",
             "startDate": "June 2019",
@@ -240,14 +240,14 @@ export const PROJECTS_DATA = [
         id:1,
         img:'assets/images/stem-app.png',
         url:'https://kitsunechaos.com/tools',
-        title:'STEM Project',
+        title:'projects.stem.title',
         tools:['Angular', 'Bootstrap', 'E-charts']
     },
     {
         id:2,
         img:'assets/images/biller-app.png',
         url:'https://kitsunechaos.com/biller-app/login',
-        title:'Biller App',
+        title:'projects.biller.title',
         tools:['Angular', 'Bootstrap', 'Node.js', 'Express.js', 'SQL', 'E-charts']
     },
     // {
@@ -263,15 +263,15 @@ export const CONTACT_DATA = [
     {
         id:1,
         logo:'assets/images/icons/envelope-at-fill.svg',
-        title:'Email',
+        title:'addressCard.email',
         url:'mailto:athiyagu6@gmail.com',
         text:'athiyagu6@gmail.com'
     },
     {
         id:2,
         logo:'assets/images/icons/geo-alt-fill.svg',
-        title:'Address',
+        title:'addressCard.address',
         url:'',
-        text:'Kanagawa Prefecture, Kawasaki, Japan',
+        text:'addressCard.myAddress',
     },
 ]

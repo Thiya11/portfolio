@@ -1,15 +1,18 @@
 import { EXPERIENCE_DATA } from "../common/configs"
 import ExpCard from "./utils/ExpCard";
 import useScrollFade from "./utils/useScrollFade";
+import { useTranslation } from "react-i18next";
 
 function Experience() {
   const experienceData = EXPERIENCE_DATA;
   const [ref, isVisible] = useScrollFade();
+  const {t} = useTranslation();
+
   return (
     <section className="expereince-section d-flex flex-column" id="experience">
         <div ref={ref} className={`section-header fade-in-section ${isVisible ? 'is-visible' : ''}`}>
-            <h2 className="primary-text">My Journey</h2>
-            <h6 className="secondary-text text-center">Work Expereince and Education</h6>
+            <h2 className="primary-text">{t('experience.common.title')}</h2>
+            <h6 className="secondary-text text-center">{t('experience.common.subText')}</h6>
         </div>
        <div className="experience-content mx-auto px-4">
         {

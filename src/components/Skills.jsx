@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { SKILLS_DATA } from "../common/configs";
 import Card from "./utils/Card";
 import useScrollFade from "./utils/useScrollFade";
@@ -12,19 +13,20 @@ function Skills() {
  const testingSkills = skillsData.filter((item) => item.category === 'testing');
  const otherSkills = skillsData.filter((item) => item.category === 'tools');
  const [ref, isVisible] = useScrollFade();
+ const {t} = useTranslation();
 
   return (
     <section className="container skills-section" id="skills">
         <div ref={ref} className={`section-header fade-in-section ${isVisible ? 'is-visible' : ''}`}>
-            <h2 className="primary-text">SKILLS</h2>
+            <h2 className="primary-text">{t("skills.title")}</h2>
         </div>
         <div  ref={ref} className={`section-content fade-in-section ${isVisible ? 'is-visible' : ''}`}>
             <div className="skills-content">
-                <p className="secondary-text text-center">My Extensive List of Skills</p>
+                <p className="secondary-text text-center">{t("skills.subText")}</p>
                 <div className="skills-container">
                     <div className="skill-container-section">
                         <div className="container-header">
-                            Front-End Skills
+                            {t("skills.items.frontEnd")}
                         </div>
                         <div className="container-section">
                             {frontEndSkills.map((skill) => (
@@ -34,7 +36,7 @@ function Skills() {
                     </div>
                     <div className="skill-container-section">
                         <div className="container-header">
-                            DataBase Skills
+                           {t("skills.items.dataBase")}
                         </div>
                         <div className="container-section">
                             {dataBaseSkills.map((skill) => (
@@ -44,7 +46,7 @@ function Skills() {
                     </div>
                     <div className="skill-container-section">
                         <div className="container-header">
-                            Programming Languages
+                            {t("skills.items.programming")}
                         </div>
                         <div className="container-section">
                             {programmingSkills.map((skill) => (
@@ -54,7 +56,7 @@ function Skills() {
                     </div>
                     <div className="skill-container-section">
                         <div className="container-header">
-                            Back-End Skills
+                           {t("skills.items.backEnd")}
                         </div>
                        <div className="container-section">
                         {backEndSkills.map((skill) => (
@@ -64,7 +66,7 @@ function Skills() {
                     </div>
                     <div className="skill-container-section">
                         <div className="container-header">
-                            Testing Frameworks
+                            {t("skills.items.testing")}
                         </div>
                         <div className="container-section">
                             {testingSkills.map((skill) => (
@@ -74,7 +76,7 @@ function Skills() {
                     </div>
                     <div className="skill-container-section">
                         <div className="container-header">
-                            Other Tools
+                           {t("skills.items.others")}
                         </div>
                         <div className="container-section">
                             {otherSkills.map((skill) => (

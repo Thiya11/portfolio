@@ -49,6 +49,14 @@
     .secondary-text {
         padding: 0.5rem !important;
     }
+
+    .custom-navbar {
+        text-align: center;
+    }
+
+    .resume {
+        margin: 1rem 0 0 0!important;
+    }
 }
 
 /* Medium size screens */
@@ -102,11 +110,19 @@
     .secondary-text {
         padding: 0.5rem !important;
     }
+
+    .custom-navbar {
+        text-align: center;
+    }
+
+    .resume {
+        margin: 1rem 0 0 0!important;
+    }
 }
 
 /* large screens */
 
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) and (max-width:1023px) {
     .books-shelf, .projects-container {
         display: flex;
         flex-direction: column;
@@ -156,6 +172,14 @@
 
     .contact-content{
         margin: 2rem !important;
+    }
+
+    .custom-navbar {
+        text-align: center;
+    }
+
+    .resume {
+        margin: 1rem 0 0 0!important;
     }
 }
 
@@ -227,7 +251,7 @@
     }
 }
 
-/* only small changes */
+/* only small screen */
 
 @media (min-width:768px) and (max-width:992px) {
     .center-line.right {

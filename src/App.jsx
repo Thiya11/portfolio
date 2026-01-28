@@ -27,7 +27,6 @@ function App() {
             );
 
             activeItem?.classList.add('active')
-            console.log(activeItem)
           }
         })
       }, {threshold:0.2}

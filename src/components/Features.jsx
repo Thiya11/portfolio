@@ -1,9 +1,12 @@
 import { FEATURES_DATA } from "../common/configs"
 import useScrollFade from "./utils/useScrollFade";
+import { useTranslation } from "react-i18next";
 
 function Features() {
     const features = FEATURES_DATA;
     const [ref, isVisible] = useScrollFade();
+    const {t} = useTranslation();
+
   return (
     <div className="grid-2-columns about-me-features">
         <div className="about-me-features-left">
@@ -13,8 +16,8 @@ function Features() {
                     <img src={item.icon}/>
                  </div>
                  <div className="feature-content">
-                    <h4>{item.title}</h4>
-                    <p>{item.subText}</p>
+                    <h4>{t(item.title)}</h4>
+                    <p>{t(item.subText)}</p>
                     <div className="feature-underline-wrapper">
                         <div className="feature-underline"></div>
                     </div>
@@ -29,8 +32,8 @@ function Features() {
                     <img src={item.icon}/>
                  </div>
                  <div className="feature-content">
-                    <h4>{item.title}</h4>
-                    <p>{item.subText}</p>
+                    <h4>{t(item.title)}</h4>
+                    <p>{t(item.subText)}</p>
                     <div className="feature-underline-wrapper">
                         <div className="feature-underline"></div>
                     </div>

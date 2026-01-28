@@ -1,9 +1,11 @@
 import useScrollFade from "./useScrollFade";
+import { useTranslation } from "react-i18next";
 
 function HobbyCard({book, type}) {
 
  const [ref, isVisible] = useScrollFade();
-
+ const {t} = useTranslation();
+ 
  function redirect(book){
     if(book.url) {
         location.href = book.url;
@@ -32,7 +34,7 @@ function HobbyCard({book, type}) {
            }
         </div>
         <div className="book-desc">
-            <h4 className="book-title">{book.title}</h4>
+            <h4 className="book-title">{t(book.title)}</h4>
             {
                 type == 'hobbyBook' ? <h6 className="book-auth">{book.author}</h6> 
                 : ``

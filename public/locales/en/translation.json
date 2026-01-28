@@ -1,0 +1,109 @@
+{
+    "hero": {
+        "intro": "I’m Thiyagu, a Software Developer",
+        "description": "AI-Enhanced Software Developer with 3+ years of experience, proficient in various tech stacks from front-end to back-end.",
+        "about": {
+            "title": "ABOUT ME",
+            "subText": "Skilled in building scalable web applications with a focus on performance and user experience. Experienced in both front-end and back-end development, delivering end-to-end solutions.",
+            "button": "Learn More"
+        },
+        "work": {
+            "title": "MY WORK",
+            "subText": "Worked on fintech and security-based projects, ensuring high performance and security standards. Developed a STEM tool as a personal project.",
+            "button": "Explore Projects"
+        },
+        "follow": "Follow Me"
+    },
+    "about": {
+        "title": "ABOUT ME",
+        "subText": "I am a Software Developer with 3+ years of experience in developing web applications. Experienced in both front-end and back-end development."
+    },
+    "features": {
+        "frontend": {
+            "title": "Front-End",
+            "subText": "Experienced in building responsive web applications using Angular, React, HTML, CSS, and JavaScript."
+        },
+        "backend": {
+            "title": "Back-End",
+            "subText": "Developed RESTful APIs using Node.js and Express along with PostgreSQL and MySQL."
+        },
+        "other": {
+            "title": "Other Skills",
+            "subText": "Experienced in using tools like Git, Cypress, ESLint, and Postman."
+        },
+        "ai": {
+            "title": "AI and ML",
+            "subText": "Learning to use libraries like TensorFlow, Keras, and Scikit-Learn."
+        }
+    },
+    "experience": {
+         "common": {
+            "title":"My Journey",
+            "subText":"Work Expereince and Education"
+        },
+        "0": {
+            "role": "Software Developer",
+            "location": "Shibuya, Japan",
+            "description": "I’ve learned Japanese business etiquette and work with front-end frameworks like Angular and React to build practical web applications across various domains."
+        },
+        "1": {
+            "role": "Software Developer",
+            "location": "Goa, India",
+            "description": "Developed efficient, reusable web components and intuitive UIs using Angular, Bootstrap, and React, enhancing performance, security, and cross-platform compatibility."
+        },
+        "2": {
+            "role": "Angular Developer",
+            "location": "Goa, India",
+            "description": "Built scalable Angular apps with 20% performance boost, upgraded to latest versions, enabled white labeling, added I18N support, and crafted responsive UIs."
+        },
+        "3": {
+            "role": "Master of Science (Physics)",
+            "location": "Dindigul, India",
+            "description": "My master’s degree in Physics strengthened my logical reasoning and problem-solving skills, which transferred naturally into software development and engineering thinking."
+        }
+    },
+     "projects": {
+        "title": "Curated Projects",
+        "subText": "Apart from my work experience these are my individual projects",
+        "stem": {
+            "title":"STEM Project"
+        },
+        "biller": {
+            "title":"Biller App"
+        }
+    },
+    "skills": {
+        "title":"Skills",
+        "subText":"My Extensive List of Skills",
+        "items":{
+            "frontEnd":"Front-End Skills",
+            "backEnd":"Back-End Skills",
+            "dataBase":"DataBase Skills",
+            "programming":"Programming Languages",
+            "testing":"Testing Frameworks",
+            "others":"Other Tools"
+        }
+    },
+    "hobbies":{
+        "title": "Other than Coding",
+        "subText": "Like to read lot of books, some of them from my recent collection."
+    },
+    "contact":{
+        "title":"Let's Connect",
+        "subText": "Choose your preferred method to connect with me"
+    },
+    "addressCard":{
+        "email":"Email",
+        "address":"Address",
+        "myAddress":"Kanagawa Prefecture, Kawasaki, Japan"
+    },
+    "menu":{
+        "home":"Home",
+        "about":"About Me",
+        "experience":"Experience",
+        "projects":"Projects",
+        "skills":"Skills",
+        "contact":"Contact Me",
+        "resume":"Download Resume"
+    }
+}

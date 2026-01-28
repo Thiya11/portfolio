@@ -114,7 +114,7 @@ a {
 }
 
 .scroll-circle {
-  background-color:#3498db;
+  background-color:var(--hover-color);
   margin-top: 2rem;
   width: 80px;
   height: 80px;
@@ -554,7 +554,7 @@ a {
 }
 
 .range{
-  background-color: #3498db;
+  background-color: var(--hover-color);
 }
 
 /* Projects section */
@@ -633,7 +633,7 @@ a {
 }
 
 .contact-desc h6 a:hover {
-  color: #3498db;
+  color: var(--hover-color);
 }
 
 /* Menu styles */
@@ -646,11 +646,11 @@ a {
 }
 
 .nav-link:hover{
-  color: #3498db !important;
+  color: var(--hover-color) !important;
 }
 
 .navbar-nav .nav-link.active {
-  color: #3498db !important;
+  color: var(--hover-color) !important;
 }
 
 #main_navbar {
@@ -688,4 +688,35 @@ a {
   opacity: 1;
   transform: none;
   visibility: visible;
+}
+
+.custom-icon {
+  width: 18px;
+  height: 18px;
+  margin: 0 6px;
+}
+
+.custom-navbar {
+  display: flex;
+  justify-content: flex-end;
+  border: 1px solid #113157;
+  border-radius: 2px;
+} 
+
+.resume {
+  margin-left: 0.75rem;
+  border: 1px solid var(--hover-color);
+}
+
+.resume-button{
+  padding: 5px 12px !important;
+}
+
+.dropdown-toggle {
+  background-color: var(--bg-color) !important;
+  border: none;
+}
+
+.dropdown-toggle:hover {
+  color: var(--hover-color);
 }

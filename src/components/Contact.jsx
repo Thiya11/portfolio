@@ -1,15 +1,17 @@
+import { useTranslation } from "react-i18next";
 import { CONTACT_DATA } from "../common/configs";
 import useScrollFade from "./utils/useScrollFade";
 
 function Contact() {
     const contactData = CONTACT_DATA;
     const [ref, isVisible] = useScrollFade();
+    const {t} = useTranslation();
   return (
     <section className="contact-section" id="contact">
         <div ref={ref} className={`section-header fade-in-section ${isVisible ? 'is-visible' : ''}`}>
-            <h2 className="primary-text">{"Let's Connect"}</h2>
+            <h2 className="primary-text">{t("contact.title")}</h2>
             <h6 className="secondary-text text-center">
-               Choose your preferred method to connect with me
+                {t("contact.subText")}
             </h6>
         </div>
         <div className="contact-content">
@@ -21,10 +23,10 @@ function Contact() {
                     </div>
                     <div className="contact-desc">
                         <p>
-                            {contact.title}
+                            {t(contact.title)}
                         </p>
                         <h6>
-                            {contact.title != 'Address' ? <a href={contact.url}>{contact.text}</a> : <a>{contact.text}</a>}
+                            {contact.id != 2 ? <a href={contact.url}>{contact.text}</a> : <a>{t(contact.text)}</a>}
                         </h6>
                     </div>
                 </div>

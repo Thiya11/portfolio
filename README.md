@@ -43,3 +43,10 @@
 - Self linking for the same project is redundant so removed.
 - Added Java, Spring boot and MCP to the skills section.
 - Changed the expereince to around 3+ years.
+
+## version 1.5.0
+- Added changes in language support for japanese.
+- Added language change button on the menu bar includes japanese and english.
+- Changes done on download resume button and made interactive.
+- Added the japanese style resume linked to the download button.
+- While user selects the language resume format selected as per the language.

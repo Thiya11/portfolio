@@ -8,5 +8,12 @@ i18next
 .use(I18nextBrowserLanguageDetector)
 .use(I18NextHttpBackend)
 .init({
-    fallbacking: 'en',
+    fallbackLng: "en",
+    lng: "en",
+    backend: {
+      loadPath: "/locales/{{lng}}/translation.json",
+    },
+    interpolation: {
+      escapeValue: false,
+    },
 })

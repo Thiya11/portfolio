@@ -57,6 +57,11 @@
             "description": "Built scalable Angular apps with 20% performance boost, upgraded to latest versions, enabled white labeling, added I18N support, and crafted responsive UIs."
         },
         "3": {
+            "role":"Full-Stack Developer",
+            "location":"Coimbatore, Tamil Nadu",
+            "description":"Developed a scalable SIEM web application using Angular and Node.js, building a library of 40+ reusable components that reduced development time by 30%. Designed 20+ secure RESTful APIs with JWT authentication and PostgreSQL, ensuring robust log analysis and high-performance event visualization."
+        },
+        "4": {
             "role": "Master of Science (Physics)",
             "location": "Dindigul, India",
             "description": "My master’s degree in Physics strengthened my logical reasoning and problem-solving skills, which transferred naturally into software development and engineering thinking."

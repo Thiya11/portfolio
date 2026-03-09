@@ -198,13 +198,25 @@ export const EXPERIENCE_DATA =  [
             "id": 3,
             "description": "experience.3.description",
             "currentJob": false,
-            "endDate":"July 2021",
+            "endDate":"March 2023",
             "role": "experience.3.role",
             "location": "experience.3.location",
             "company": "Gandhigram University",
             "url":"https://www.ruraluniv.ac.in/",
-            "startDate": "June 2019",
+            "startDate": "June 2022",
             "sortOrderId": 3
+        },
+        {
+            "id": 4,
+            "description": "experience.4.description",
+            "currentJob": false,
+            "endDate":"July 2021",
+            "role": "experience.4.role",
+            "location": "experience.4.location",
+            "company": "Gandhigram University",
+            "url":"https://www.ruraluniv.ac.in/",
+            "startDate": "June 2019",
+            "sortOrderId": 4
         }
     ];
 

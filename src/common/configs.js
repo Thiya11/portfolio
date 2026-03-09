@@ -201,8 +201,8 @@ export const EXPERIENCE_DATA =  [
             "endDate":"March 2023",
             "role": "experience.3.role",
             "location": "experience.3.location",
-            "company": "Gandhigram University",
-            "url":"https://www.ruraluniv.ac.in/",
+            "company": "Centiyent",
+            "url":"https://www.centiyent.com//",
             "startDate": "June 2022",
             "sortOrderId": 3
         },

@@ -257,13 +257,20 @@ export const PROJECTS_DATA = [
     },
     {
         id:2,
-        img:'assets/images/biller-app.png',
-        url:'https://kitsunechaos.com/biller-app/login',
-        title:'projects.biller.title',
-        tools:['Angular', 'Bootstrap', 'Node.js', 'Express.js', 'SQL', 'E-charts']
+        img:'assets/images/suvadu.png',
+        url:'https://ysuvadu.com',
+        title:'projects.suvadu.title',
+        tools:['Next.js', 'Tailwind', 'Cloudflare R2', 'PostgreSQL', 'Chart.js', 'Excalidraw']
     },
     // {
     //     id:3,
+    //     img:'assets/images/biller-app.png',
+    //     url:'https://kitsunechaos.com/biller-app/login',
+    //     title:'projects.biller.title',
+    //     tools:['Angular', 'Bootstrap', 'Node.js', 'Express.js', 'SQL', 'E-charts']
+    // },
+    // {
+    //     id:4,
     //     img:'assets/images/portfolio.png',
     //     url:'https://thiyagu-arunachalam.vercel.app/',
     //     title:'Portfolio Project',

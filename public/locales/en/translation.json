@@ -75,7 +75,10 @@
         },
         "biller": {
             "title":"Biller App"
-        }
+        },
+         "suvadu": {
+             "title": "Version Control for Artists"
+         }
     },
     "skills": {
         "title":"Skills",

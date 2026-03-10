@@ -251,7 +251,7 @@ export const PROJECTS_DATA = [
     {
         id:1,
         img:'assets/images/stem-app.png',
-        url:'https://kitsunechaos.com/tools',
+        url:'https://kitsune-tools.vercel.app/',
         title:'projects.stem.title',
         tools:['Angular', 'Bootstrap', 'E-charts']
     },
